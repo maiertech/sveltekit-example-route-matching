@@ -8,3 +8,6 @@
 	This route is served from <code>{$page.url.pathname}</code> and is processed by
 	<code>src/routes/color/[...rest].svelte</code>.
 </p>
+
+<a href="/">back</a>
+
