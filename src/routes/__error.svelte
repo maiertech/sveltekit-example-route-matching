@@ -1,0 +1,10 @@
+<script>
+	import { page } from '$app/stores';
+</script>
+
+<h1>Error 404 (not found)</h1>
+
+<p>
+	This route is served from <code>{$page.url.pathname}</code> and is processed by
+	<code>routes/__error.svelte</code>.
+</p>
