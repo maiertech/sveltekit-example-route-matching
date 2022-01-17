@@ -10,3 +10,6 @@
 	This route is served from <code>{$page.url.pathname}</code> and is processed by
 	<code>routes/color/[color].svelte</code>.
 </p>
+
+<a href="/">back</a>
+
