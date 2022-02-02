@@ -13,4 +13,3 @@ SvelteKit matches path segments left to right. Path segements can be static (`..
 1. For two path segements of the same type, the first one in alphabetical order takes precedence, e.g. `src/routes/[color].svelte` takes precedence over `src/routes/[nocolor].svelte`.
 
 Launch the example with `npm run dev` and try to match routes for each link.
-
