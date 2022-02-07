@@ -5,8 +5,8 @@
 <h1>Error 404 (not found)</h1>
 
 <p>
-	This route is served from <code>{$page.url.pathname}</code> and is processed by
-	<code>routes/__error.svelte</code>.
+	This page's path is <code>{$page.url.pathname}</code> and it is processed by
+	<code>src/routes/__error.svelte</code>.
 </p>
 
 <a href="/">back</a>
