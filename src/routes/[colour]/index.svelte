@@ -7,8 +7,8 @@
 </h1>
 
 <p>
-	This route is served from <code>{$page.url.pathname}</code> and is processed by
-	<code>routes/[colour]/index.svelte</code>.
+	This page's path is <code>{$page.url.pathname}</code> and it is processed by
+	<code>src/routes/[colour]/index.svelte</code>.
 </p>
 
 <a href="/">back</a>
