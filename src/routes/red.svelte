@@ -5,7 +5,7 @@
 <h1 style="color: red;">This route is red</h1>
 
 <p>
-	This is route <code>{$page.url.pathname}</code>, which is rendered with
+	This is route <code>{$page.url.pathname}</code>, which is rendered with page
 	<code>src/routes/red.svelte</code>.
 </p>
 

@@ -7,7 +7,7 @@
 </h1>
 
 <p>
-	This is route <code>{$page.url.pathname}</code>, which is rendered with
+	This is route <code>{$page.url.pathname}</code>, which is rendered with page
 	<code>src/routes/[colour]/index.svelte</code>.
 </p>
 
