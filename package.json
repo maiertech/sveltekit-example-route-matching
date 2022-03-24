@@ -1,6 +1,9 @@
 {
-	"name": "sveltekit-example-template",
-	"version": "0.0.1",
+	"name": "sveltekit-example-route-matching",
+	"description": "Learn how route matching in SvelteKit works.",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "maiertech/sveltekit-example-route-matching",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
