@@ -4,4 +4,9 @@ updates:
     directory: '/'
     schedule:
       interval: 'monthly'
-    rebase-strategy: 'auto'
+    rebase-strategy: 'disabled'
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'monthly'
+    rebase-strategy: 'disabled'
