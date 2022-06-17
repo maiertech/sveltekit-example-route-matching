@@ -1,9 +1,29 @@
 ports:
   - port: 3000
     onOpen: open-preview
+
 tasks:
-  - init: npm install
+  - name: Run dev server
+    init: |
+      npm install
+      gp sync-done install
     command: npm run dev
+  - name: Show outdated packages
+    init: gp sync-await install
+    command: npm outdated
+    openMode: split-right
+
+github:
+  prebuilds:
+    main: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: false
+    addBadge: true
+    addLabel: false
+
 vscode:
   extensions:
     - dbaeumer.vscode-eslint
