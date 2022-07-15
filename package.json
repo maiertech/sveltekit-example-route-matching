@@ -20,7 +20,7 @@
 		"eslint-plugin-svelte3": "^3.2.1",
 		"prettier": "^2.6.0",
 		"prettier-plugin-svelte": "^2.4.0",
-		"svelte": "^3.46.3"
+		"svelte": "^3.49.0"
 	},
 	"type": "module"
 }
